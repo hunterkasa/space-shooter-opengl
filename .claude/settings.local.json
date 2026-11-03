@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(g++ -Wall -fexceptions -g -c main.cpp -o \"obj/Debug/main.o\")",
+      "Bash(g++ main.cpp -o main_check.exe -lopengl32 -lglu32 -lfreeglut -lwinmm)"
+    ]
+  }
+}
